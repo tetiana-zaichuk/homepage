@@ -1,2 +1,3 @@
 # Homepage
-My very own personal website. Basically this is just a résumé.
+## Hello! 
+This is my personal website. My name is *Tetiana*. I`m studing *HTML*, *CSS*. Here I can continue my studies. In BSA18 we need to create a résumé.
