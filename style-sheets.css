@@ -3,98 +3,60 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 a {
-    color: inherit;
-    text-decoration: none;
+    color: #555;
+}
+a:hover {
+    color: #555;
+    text-decoration: underline;
 }
 
-body {
-    background-color: #eee;
-    color: #4e4544;
-    font: normal 16px sans-serif;
+.img-wrapper {
+    max-width: 260px;
 }
-
-.container{
-    max-width: 900px;
-    background-color: #fff;
-    margin: 0 auto;
-    padding: 0 60px;
-
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    grid-template-areas: 
-        "header header"
-        "main sidebar"
-        "footer footer";
-    grid-gap: 60px;
-}
-
-header{
-    grid-area: header;
-    color: #000000;
-    padding: 20px 0;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
-header nav {
-    justify-self: start;    
-    list-style: none;
-
-}
-.image { 
-    float:left; 
-    margin:10px;
-    margin-top:0px;
-}
-.name { 
-	text-align=right;
-}
-header nav li {
-    margin-right: 15px;
-    display: inline-block;
-}
-
-.contact {
-    justify-self: end;
-    background-color: #ffffff;
-    border: none;
-    padding: 5px 25px;
-    color: #000000;
-    cursor: pointer;
-}
-
-.main {
-    grid-area: main;    
-    text-align: left;
-}
-
-.main h2 {
-    font-size: 32px;
-    margin-bottom: 55px;
-}
-
-.main p {
-    margin-bottom: 50px;
-}
-
-.main img {
+.resume-img {
     width: 100%;
 }
-
-.sidebar {
-    grid-area: sidebar;    
-    padding: 20px;
+.contact {
+    margin: 50px 0 0 0px;
+}
+.social {
+    line-height: 35px;
+    text-align: right;
+}
+.social a{
+    margin: 0 10px 0 0;
+}
+.person {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    bottom: 32px;
+    height: 79px;
+    text-align: center;
+}
+.header{
+    position: relative;
+}
+h1 {
+    font-size: 35px;
+}
+.role {
+    font-size: 20px;
+    color: #777;
 }
 
-@media (max-width: 600px) {
-    .container{
-        
-        grid-template-columns: 1fr;
-        grid-template-areas: 
-            "header"
-            "main"
-            "sidebar";
+@media screen and (max-width: 1200px) and (min-width: 992px) {
+    .contact {
+        text-align: center;
+        margin: 50px 0 0 0px;
+    }
+    .social {
+        line-height: 35px;
+        text-align: right;
+        margin: 0 5px;
+    }
+    .social a {
+        margin: 0 5px 0 0;
     }
 }
