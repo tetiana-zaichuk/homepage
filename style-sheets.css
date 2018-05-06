@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: #555;
 }
 a {
     color: #555;
@@ -40,10 +41,18 @@ a:hover {
 }
 h1 {
     font-size: 35px;
+    color: #000;
 }
 .role {
     font-size: 20px;
     color: #777;
+}
+.main h2 {
+    text-transform: uppercase;
+}
+.paragraph-line {
+    border-bottom: 2px solid;
+    height: 100%;
 }
 
 @media screen and (max-width: 1200px) and (min-width: 992px) {
