@@ -27,4 +27,36 @@ a:hover {
 .social a{
     margin: 0 10px 0 0;
 }
+.person {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    bottom: 32px;
+    height: 79px;
+    text-align: center;
+}
+.header{
+    position: relative;
+}
+h1 {
+    font-size: 35px;
+}
+.role {
+    font-size: 20px;
+    color: #777;
+}
 
+@media screen and (max-width: 1200px) and (min-width: 992px) {
+    .contact {
+        text-align: center;
+        margin: 50px 0 0 0px;
+    }
+    .social {
+        line-height: 35px;
+        text-align: right;
+        margin: 0 5px;
+    }
+    .social a {
+        margin: 0 5px 0 0;
+    }
+}
