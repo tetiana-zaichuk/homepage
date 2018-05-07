@@ -19,6 +19,7 @@ a:hover {
     width: 100%;
 }
 .contact {
+    font-size: 20px;
     margin: 50px 0 0 0px;
 }
 .social {
@@ -62,7 +63,7 @@ h1 {
     margin-left:14px;
 }
 .sidebar {
-    margin: 13px 10px 10px;
+    margin: 0 10px;
 }
 .pie-chart {
     background: #ECF5E4;
@@ -91,6 +92,14 @@ div#drunkenboxing {
 .main {
     margin-top: 20px;
 }
+.skill{
+    text-align: center;
+}
+.rate{
+    margin: 0 auto 5px;
+    float: none;
+}
+
 
 @media screen and (max-width: 1200px) and (min-width: 992px) {
     .contact {
@@ -106,8 +115,51 @@ div#drunkenboxing {
         margin: 0 5px 0 0;
     }
 }
+@media screen and (max-width: 1200px) and (min-width: 768px) {
+    .person{
+        text-align: right;
+        padding-right: 10px;
+    }
+}
 @media screen and (max-width: 992px) {
     .main h2 {
         font-size: 20px;
     }
+}
+@media screen and (max-width: 992px) and (min-width: 768px) {
+    .contact {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .person{
+       position: relative;
+       bottom: 0;
+    }
+    h1{
+        font-size: 32px;
+    }
+    .role {
+        font-size: 18px;
+    }
+    .contact {
+        font-size: 17px;
+        text-align: center;
+        margin: 15px 0;
+    }
+    .social {
+        display: inline-block;
+        margin-right: 3px;
+    }
+    .img-wrapper {
+        margin: 0 auto;
+    }
+    .main h2 {
+        font-size: 18px;
+    }
+    .sidebar {
+        margin: 30px 10px;
+    }
+
 }
