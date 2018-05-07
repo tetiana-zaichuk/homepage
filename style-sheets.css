@@ -79,7 +79,7 @@ h1 {
 }
 div#kungfu {
     width: 97% !important;
-}
+} 
 div#taekwondo {
     width: 93% !important;
 }
@@ -100,6 +100,11 @@ div#drunkenboxing {
     float: none;
 }
 
+.ui.statistic>.value, .ui.statistics .statistic>.value {
+    font-size: 3rem !important;
+    color: #b2b2a6;
+    
+}
 
 @media screen and (max-width: 1200px) and (min-width: 992px) {
     .contact {
