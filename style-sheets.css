@@ -73,6 +73,21 @@ h1 {
     border-right: 24px solid #D0E6BB;
     border-radius: 100px;
 }
+.progress {
+    width: 100%;
+}
+div#kungfu {
+    width: 85% !important;
+}
+div#taekwondo {
+    width: 55% !important;
+}
+div#hapkido {
+    width: 95% !important;
+}
+div#drunkenboxing {
+    width: 75% !important;
+}
 .main {
     margin-top: 20px;
 }
