@@ -1,0 +1,51 @@
+Academy'18 • 2nd stage • 1. GitHub and how to use it (.NET)
+― Hey, hi! Hola!
+It's dangerous to go alone. Take this. 
+Git, GitHub Desktop, Visual Studio Code 
+Let's go!
+
+If that doesn't fix it, git.txt contains the phone number of a friend of mine who understands git. Just wait through a few minutes of 'It's really pretty simple, just think of branches as...' and eventually you'll learn the commands that will fix everything.
+
+Open up GitHub and sign in
+Create a new repository named homepage (e.g. volodymyr-kushnir/homepage), set description to "My very own personal website. Basically this is just a résumé."
+Create two projects — Homepage and Resume (use Kanban (Automated) as a project template for both). Here are the corresponding descriptions of them: 
+Homepage: Make homepage great! Make it responsive, accessible, informative, credible, readable, descriptive, compatible, consistent, uncluttered, simple, secure, up-to-date. Alternatively, just give up.
+Resume: A typical résumé contains a "summary" of relevant job experience and education, as its French origin implies. The résumé is usually one of the first items, along with a cover letter and sometimes an application for employment, which a potential employer sees regarding the job seeker and is typically used to screen applicants. The goal of this project is to create an online version of the résumé using HTML, CSS, and the minimum amount of JavaScript.
+From now on all the tasks should be listed in the projects. Meanwhile, take a look at the Markdown.
+Add topics (e.g. "pesonal website homepage resume gh-pages html css binary-studio-academy bsa18")
+Update README.md (psst, don't forget to add this as a task to Homepage project; but hey, also convert to issue while you're at it)
+Create a new branch based on master
+— Hey, c'mon, are you even trying?! I've asked you to put tasks into projects, so puh-leeeeeze! (all right, skip the issue this time)
+Go see the settings for the repository, lock master away, default to develop
+Collect the necessary information (official start of the "Resume" project) — it would be very nice if you could utilize GitHub's Labels and Assignees features at this point.
+Скласти таймлайн 
+Скласти список всіх (важливих) життєвих подій, визначних дат, досягнень, періодів, що дали приємний і неприємний досвід, тощо. В цьому конкретному випадку довгих списків не буває, натомість бувають погано згорнуті, тому пакуємо сюди все підряд, а про "лишні" події можна буде промовчати пізніше. Список повинен бути систематизованим і посортованим в такий спосіб, щоб читач швидко зрозумів "паттерн" і міг легко орієнтуватись в просторі і часі цього резюме.
+Скласти інтро 
+Скласти інтро (вступ), де в 2-4 реченнях описати, що ти робиш, що подобається робити, що хочеться робити краще, що важливо робити, тощо.
+Скласти блок контактної інформації 
+Посилання на соцмережі (Facebook чи Instagram, інші), номер телефону чи адреса електронної скриньки, тощо. Може не всі лінки в світі, а тільки ті, що дійсно доречні.
+Скласти додаткові інформаційні блоки 
+Можна зробити резюме менш формальним, додавши додаткові блоки, які містять корисну інформацію, але подають її в "розважальній" формі. Наприклад, що подобається і не подобається, сильні і слабкі сторони, перелік навиків чи хобі, інфографіка або ж інтерактивні модулі, тощо. Варто написати контент такого блоку раніше, ніж починати верстку, бо його розміри впливатимуть на розміщення елементів на сторінці.
+Вибрати лейаут 
+Вибрати лейаут сторінки. Натхнення можна почерпнути з робіт Білла Мауїнні, наприклад. Варто підбирати таке розміщення елементів на сторінці, за якого резюме буде виглядати однаково приємно що на екранах комп'ютерів та мобільних пристроїв, що на папері після друку.
+Create index.html (just copypaste http://htmlshell.com/, but set the title to "%username% — Résumé")
+Upgrade your <head> (use HEAD for reference, keep your work in a separate branch, see GitFlow workflow and GitHub Guides for reference). After you do this — feel free to poke around with the branches, maybe learn something new.
+Let's take a pause and be a caveman for a second — or a hacker, if you will — let's go and see how it looks like for the guys without graphical user interface (use git clone, git branch, git checkout, git log, git status). Let's also add a fake contact information into the <head> (use git add, git commit, and git push).
+Use GitHub Desktop to clone the repository on your PC and update your <head>. Push it to the remote, check the changes and create your first Pull Request. Meanwhile it's safe to delete the feature/head branch, because it was successfully merged into develop.
+Add "— Hello, world!" into the body
+Merge into master, setup GitHub Pages
+16. Закінчити проект з своїми даними. Не обов'язково це має бути саме резюме учасника академії — підійде інший персонаж, про якого буде що сказати — мама, тато, Тоні Старк, Андрес Іньєста, Дональд Трамп, тощо.
+P. S. Оцінювати результат ми само собою будемо вручну — дуже вже хочеться подивитись і почитати сайт кожного студента. Втім, виставляти бали по деяким критеріям буде допомагати бот (щоби нам швидше було, але швидше все рівно не буде), тому тобі дуже важливо його не обдурити. Отже,
+суперсправедлива десятибальна система оцінювання д/з (по балу за пункт):
+Repository & projects 
+Репозиторій створений і проекти заведені. Окрім того, можна вказати більше топіків, але ніяк не менше, аніж той список, що вказаний у завданні — бот очевидно по них буде ходити. Також студенти теж зможуть шукати по тих тегах у GitHub'і, щоб побачити чим займаються інші студенти.
+Tasks & Issues 
+Вміння добре складати завдання, чітко описувати проблеми, звітувати про їх вирішення допоможуть знайти спільну мову з проджект-менеджером замовника, якщо студент коли-небудь буде працювати в аутсорсі (а коли-небудь він буде). В світі open source більшість корисних розмов та інформація щодо вирішення проблем знаходиться якраз в Issues і розуміти як це працює — запорука успіху. Тепер це ваш Google (ну може ше трошки StackOverflow). Google все ще корисний для швидкого старту роботи з технологією, але коли щось пішло не так, то шукати спочатку треба ближче до коду тої технології і її документації, а вже потім по всій мережі.
+Branches & GitFlow Розділяючи свою роботу на багато гілок, можна швидко і вправно виправляти баги на сервері, мати окремо ще стабільну версію, готову до релізу, а також ще версію, в якій ведеться основна розробка. А в єдиній гілці нє.
+Pull Requests Мерджіть свої гілки pull request-ами, бо так треба. І потім, так можна частково зняти з себе відповідальність, адже той, хто approve-нув поганий код, допустив не меншу помилку, аніж той, хто її допустив.
+GitHub Pages Клікнути на лінк завжди легше, аніж скачувати репозиторій і відкривати файл на власному комп'ютері. Один бал нараховується тим, хто подарує нам таку зручність.
+Does it look like a resume? «Якщо воно виглядає як качка, плаває як качка і крякає як качка, то це напевно качка»
+HTML passes W3C validation Валідної HTML-розмітки буде достатньо на цьому етапі. Не обов'язково на всі 100%, десь тут і там валідатор може мати зауваження і це окей.
+CSS seems legit Мати хороший CSS можна якщо вміти його писати, або якщо його написав хтось інший, хто вміє. Таким чином варто доповнювати CSS із фреймворку такими своїми правилами, у яких впевнені. Перебивати правила фреймворку, використовуючи !important, не буде вважатись за помилку, але по можливості таких ситуацій теж було б варто уникати.
+Make homepage great! Метою проекту є зробити домашню сторінку — доступну, інформативну, зручну, читабельну. Один бал нараховується тим, хто зміг.
+Beautiful! Gorgeous! Amazing! І ще один останній бал для тих, у кого це все ще й гарно виглядає.
